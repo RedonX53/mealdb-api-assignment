@@ -1,18 +1,21 @@
-[
-  {
-    "mealName": "Chicken",
-    "imgPath": "images/chicken.png"
-  },
-  {
-    "mealName": "Salmon",
-    "imgPath": "images/salmon.png"
-  },
-  {
-    "mealName": "Beef",
-    "imgPath": "images/beef.png"
-  },
-  {
-    "mealName": "Pork",
-    "imgPath": "images/pork.png"
-  }
-]
+{
+  "ingredients":[
+    {
+      "mealName": "Chicken",
+      "imgPath": "images/chicken.png"
+    },
+    {
+      "mealName": "Salmon",
+      "imgPath": "images/salmon.png"
+    },
+    {
+      "mealName": "Beef",
+      "imgPath": "images/beef.png"
+    },
+    {
+      "mealName": "Pork",
+      "imgPath": "images/pork.png"
+    }
+  ]
+  
+}

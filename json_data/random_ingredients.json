@@ -1,18 +1,21 @@
-[
-  {
-    "mealName": "Coconut Milk",
-    "imgPath": "images/coconut.png"
-  },
-  {
-    "mealName": "English Mustard",
-    "imgPath": "images/salmon.png"
-  },
-  {
-    "mealName": "Minced Beef",
-    "imgPath": "images/minced.png"
-  },
-  {
-    "mealName": "Codiander Seeds",
-    "imgPath": "images/coriander.png"
-  }
-]
+{
+  "random":[
+    {
+      "mealName": "Coconut Milk",
+      "imgPath": "images/coconut.png"
+    },
+    {
+      "mealName": "English Mustard",
+      "imgPath": "images/salmon.png"
+    },
+    {
+      "mealName": "Minced Beef",
+      "imgPath": "images/minced.png"
+    },
+    {
+      "mealName": "Codiander Seeds",
+      "imgPath": "images/coriander.png"
+    }
+  ]
+  
+}

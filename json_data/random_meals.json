@@ -1,34 +1,37 @@
-[
-  {
-    "mealName": "Japanese Katsudon",
-    "imgPath": "images/japanese.jpg"
-  },
-  {
-    "mealName": "Bitterballen (Dutch meatballs)",
-    "imgPath": "images/meatballs.jpg"
-  },
-  {
-    "mealName": "Spotted Dick",
-    "imgPath": "images/dick.jpg"
-  },
-  {
-    "mealName": "Beef and Oyster pie",
-    "imgPath": "images/oyster.jpg"
-  },
-  {
-    "mealName": "Vegetable Shepherd's Pie",
-    "imgPath": "images/vegetable.jpg"
-  },
-  {
-    "mealName": "Yaki Udon",
-    "imgPath": "images/udon.jpg"
-  },
-  {
-    "mealName": "Creamy Tomato Soup",
-    "imgPath": "images/tomato.jpg"
-  },
-  {
-    "mealName": "Ham hock colcannon",
-    "imgPath": "images/ham.jpg"
-  }
-]
+{
+  "randmeals":[
+    {
+      "mealName": "Japanese Katsudon",
+      "imgPath": "images/japanese.jpg"
+    },
+    {
+      "mealName": "Bitterballen (Dutch meatballs)",
+      "imgPath": "images/meatballs.jpg"
+    },
+    {
+      "mealName": "Spotted Dick",
+      "imgPath": "images/dick.jpg"
+    },
+    {
+      "mealName": "Beef and Oyster pie",
+      "imgPath": "images/oyster.jpg"
+    },
+    {
+      "mealName": "Vegetable Shepherd's Pie",
+      "imgPath": "images/vegetable.jpg"
+    },
+    {
+      "mealName": "Yaki Udon",
+      "imgPath": "images/udon.jpg"
+    },
+    {
+      "mealName": "Creamy Tomato Soup",
+      "imgPath": "images/tomato.jpg"
+    },
+    {
+      "mealName": "Ham hock colcannon",
+      "imgPath": "images/ham.jpg"
+    }
+  ]
+  
+}

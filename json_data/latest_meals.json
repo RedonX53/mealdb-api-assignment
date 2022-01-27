@@ -1,4 +1,5 @@
-[
+{
+  "meals":[
   {
     "mealName": "Chivito uruguayo",
     "imgPath": "images/chivito.jpg"
@@ -32,3 +33,4 @@
     "imgPath": "images/lamb.jpg"
   }
 ]
+}

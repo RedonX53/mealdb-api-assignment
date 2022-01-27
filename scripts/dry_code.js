@@ -41,10 +41,29 @@ sectionMeta.forEach((metaData) => {
       latestMeal.insertAdjacentHTML(
         "beforeend",
         `<div class="${metaData.divClass}">
-     <a href="${metaData.getLink}"> <img src="${data[i].imgPath}" /></a>
-      <h3>${data[i].mealName}</h3>
-    </div>`
+        <a href="${metaData.getLink}"> <img src="${data[i].imgPath}" /></a>
+         <h3>${data[i].mealName}</h3>
+        </div>`
       );
     }
   };
 });
+
+// function extractData(className,imgLinkToApply,imgPath,mealName){
+//   return generateData(className,imgLinkToApply,imgPath,mealName);
+// }
+
+// function generateData(title,img) {
+
+//      $.get("templete.html", (data) => {
+//       let newData = data.replace("##IMG##", img);
+//       newData = newData.replace("##TITLE##", title);
+
+// }
+
+// extractData(
+//   `${metaData.divClass}`,
+//   `${metaData.getLink}`,
+//   `${data[i].imgPath}`,
+//   `${data[i].mealName}`
+// );
