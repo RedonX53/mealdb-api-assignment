@@ -1,0 +1,307 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");
+body {
+  background-color: #2d2013;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+nav {
+  height: 100px;
+  width: 100%;
+  background-color: #23180d;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+nav a {
+  text-decoration: none;
+}
+/* nav h6,
+input,
+img {
+  display: inline;
+} */
+nav img {
+  margin: 20px 0;
+  height: 40px;
+  width: 40px;
+}
+#fb-logo,
+#twitter-logo {
+  flex: 1;
+  margin-left: 0;
+  width: 40px;
+  height: 40px;
+  display: none;
+}
+
+nav h6 {
+  font-size: 20px;
+  margin: 30px 10px;
+  padding: 0;
+  flex: 1;
+  color: white;
+}
+
+nav #nav-logo {
+  flex: 5;
+}
+nav input {
+  width: 200px;
+  height: 40px;
+  border-radius: 5px;
+  margin: 20px 30px;
+}
+
+footer {
+  max-height: 150px;
+  max-width: 100%;
+  height: 150px;
+  width: 100%;
+  background-color: #23180d;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 5px;
+}
+header {
+  height: 400px;
+  width: 100%;
+  /* background-color: #f5cba7; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+header div {
+  text-align: center;
+  flex: 2;
+}
+header div h1 {
+  font-size: 50px;
+  color: white;
+}
+header div p {
+  color: white;
+  font-size: 20px;
+}
+header button {
+  background-color: yellow;
+  padding: 12px 50px;
+  border-radius: 5px;
+  margin: 10px 0;
+  color: gray;
+  font-size: 20px;
+}
+#search-link {
+  text-decoration: none;
+  color: white;
+}
+#search-link span {
+  font-weight: bold;
+}
+#main-margin {
+  margin: 0 8%;
+}
+
+hr {
+  background-color: #fefefe;
+  height: 1px;
+}
+
+#search-block {
+  height: 110px;
+  width: 100%;
+  /* background-color: #23180d; */
+  text-align: center;
+}
+#search-button {
+  background-color: white;
+  padding: 12px 50px;
+  border-radius: 5px;
+  margin: 10px 0;
+  color: gray;
+  font-size: 20px;
+  display: block;
+  margin: 3px 37%;
+  min-width: 400px;
+  margin-bottom: 10px;
+}
+#latest-meal,
+#popular-ingredients {
+  margin: 10px 0;
+  width: 100%;
+  height: min-content;
+  /* background-color: #23180d; */
+  text-align: center;
+  margin-bottom: 60px;
+}
+#random-meals {
+  margin: 10px 0;
+  width: 100%;
+  height: min-content;
+  /* background-color: #23180d; */
+  text-align: center;
+  margin-bottom: 60px;
+}
+#random-ingredients {
+  margin: 10px 0;
+  width: 100%;
+  height: min-content;
+  /* background-color: #23180d; */
+  text-align: center;
+  margin-bottom: 60px;
+}
+#latest-meal h4 {
+  color: #fefefe;
+  font-weight: 300;
+  font-size: 24px;
+
+  margin-top: 30px;
+}
+#popular-ingredients h4 {
+  color: #fefefe;
+  font-weight: 300;
+  font-size: 24px;
+
+  margin-top: 30px;
+}
+#random-meals h4 {
+  color: #fefefe;
+  font-weight: 300;
+  font-size: 24px;
+
+  margin-top: 30px;
+}
+#random-ingredients h4 {
+  color: #fefefe;
+  font-weight: 300;
+  font-size: 24px;
+  margin-top: 30px;
+}
+#latest-meal-item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+#popular-ingredients-item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+#random-meals-item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+#random-ingredients-item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+#latest-meal-item div {
+  box-sizing: border-box;
+  width: 310px;
+  height: 330px;
+  /* background-color: green; */
+  margin: 5px;
+}
+
+#popular-ingredients-item div {
+  box-sizing: border-box;
+  width: 310px;
+  height: 330px;
+  /* background-color: green; */
+  margin: 5px;
+}
+#random-meals-item div {
+  box-sizing: border-box;
+  width: 310px;
+  height: 330px;
+  /* background-color: green; */
+  margin: 5px;
+}
+#random-ingredients-item div {
+  box-sizing: border-box;
+  width: 310px;
+  height: 330px;
+  /* background-color: green; */
+  margin: 5px;
+}
+
+#main-margin img {
+  width: 300px;
+  height: 300px;
+  margin: 0;
+  padding: 0;
+}
+h3 {
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-weight: 100;
+}
+
+#flag-container {
+  text-align: center;
+  height: 400px;
+}
+#flag-container h4 {
+  color: white;
+}
+#flag-container img {
+  margin: 0;
+  padding: 0;
+  height: 80px;
+  width: 120px;
+}
+#search-by-letter {
+  font-size: 20px;
+  font-weight: bold;
+}
+#search-by-letter a {
+  color: #ffcb69;
+  text-decoration: none;
+  letter-spacing: 3px;
+}
+
+.footer1,
+.footer3 {
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+  margin: 10px 5px;
+}
+
+.latest-item h3 {
+  color: #ffcb69;
+}
+
+.popular-item h3 {
+  color: #ffcb69;
+}
+
+.random-item h3 {
+  color: #ffcb69;
+}
+
+.footer3 a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer3 a :hover {
+  color: indianred;
+}
+
+#search-box {
+  width: 300px;
+  height: 30px;
+}
+
+#search-me {
+  width: 40px;
+  height: 40px;
+  font-size: 16px;
+  font-weight: bold;
+  color: grey;
+}

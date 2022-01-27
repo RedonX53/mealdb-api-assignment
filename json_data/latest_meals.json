@@ -1,0 +1,34 @@
+[
+  {
+    "mealName": "Chivito uruguayo",
+    "imgPath": "images/chivito.jpg"
+  },
+  {
+    "mealName": "Walnut Roll Gužvara",
+    "imgPath": "images/walnut.jpg"
+  },
+  {
+    "mealName": "Fresh sardines",
+    "imgPath": "images/sardines.jpg"
+  },
+  {
+    "mealName": "Burek",
+    "imgPath": "images/burek.jpg"
+  },
+  {
+    "mealName": "Mushroom soup with buckwheat",
+    "imgPath": "images/mashroom.jpg"
+  },
+  {
+    "mealName": "Croatian Bean Stew",
+    "imgPath": "images/croatian.jpg"
+  },
+  {
+    "mealName": "Traditional Croatian Goulash",
+    "imgPath": "images/traditional.jpg"
+  },
+  {
+    "mealName": "Croatian lamb peka",
+    "imgPath": "images/lamb.jpg"
+  }
+]
