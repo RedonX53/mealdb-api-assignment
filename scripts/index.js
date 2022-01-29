@@ -1,20 +1,20 @@
 function requestEndPoint(endPointURL,loopController,imageKey,titleKey,insertId,htmlChef) {
-  const xhr = new XMLHttpRequest();
-  xhr.open("Get", endPointURL);
-  xhr.onload = function () {
-    const dataX = JSON.parse(xhr.responseText);
-    var key = Object.keys(dataX)[0];
-    var objectList = dataX[key];
+  const ajaxReq = new XMLHttpRequest();
+  ajaxReq.open("Get", endPointURL);
+  ajaxReq.onload = function () {
+    const dataX = JSON.parse(ajaxReq.responseText);
+    let key = Object.keys(dataX)[0];
+    let objectList = dataX[key];
     
     getListData(objectList,loopController,imageKey,titleKey,insertId,htmlChef);
   };
-  xhr.send();
+  ajaxReq.send();
 }
 
 function getListData(data,loopController,imageKey,titleKey,insertId,htmlChef) {
   for (let i = 0; i < loopController; i++) {
-    var title = data[i][titleKey];
-    var img = data[i][imageKey];
+    let title = data[i][titleKey];
+    let img = data[i][imageKey];
     document.getElementById(insertId).append(htmlChef(title,img));
   }
 }
@@ -24,12 +24,9 @@ requestEndPoint("json_data/latest_meals.json",8,"imgPath","mealName","random-mea
 requestEndPoint("json_data/latest_meals.json",4,"imgPath","mealName","random-ingredients-item",generateHtml);
 
 function generateHtml(title, img) {
-  var template=document.querySelector("#title_image").content.cloneNode(true);
-  var imageElement=template.querySelector(".var-img");
-  var titleElement=template.querySelector("h3");  
-  imageElement.setAttribute("src",img);
-  titleElement.textContent=title;
-  console.log( template);
+  let template=document.querySelector("#title_image").content.cloneNode(true);
+  template.querySelector(".var-img").setAttribute("src",img);
+  template.querySelector("h3").textContent=title;  
   return template;
 }
 
